@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Request filter for SeeClickFix (unofficial)",
+  "version": "1.0.0",
+  "description": "A filter panel on SeeClickFix pages: several request types, a date range, statuses and a keyword at once, with copy-as-table and shareable links. Read-only.",
+  "content_scripts": [
+    {
+      "matches": ["https://seeclickfix.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}

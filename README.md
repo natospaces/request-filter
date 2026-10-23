@@ -11,7 +11,7 @@ A small browser extension that adds a filter panel to [SeeClickFix](https://seec
 
 ![How the extension works](docs/how-it-works.png)
 
-It was built with [Claude Code](https://claude.com/claude-code) and the [Chrome DevTools MCP server](https://github.com/ChromeDevTools/chrome-devtools-mcp): Claude opened the site, watched which requests the page itself makes, and wrote the extension around the same API. The article that walks through it: *(link added when published)*.
+It was built with [Claude Code](https://claude.com/claude-code) and the [Chrome DevTools MCP server](https://github.com/ChromeDevTools/chrome-devtools-mcp): Claude opened the site, watched which requests the page itself makes, and wrote the extension around the same API. The article that walks through it: [Add the filter the site is missing: a browser extension built with Claude in an afternoon](https://medium.com/@siyah15/add-the-filter-the-site-is-missing-a-browser-extension-built-with-claude-in-an-afternoon-755375f34c1f).
 
 ## Install (Edge or Chrome)
 
